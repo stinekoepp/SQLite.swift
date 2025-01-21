@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "test",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v12),
         .macOS(.v10_13),
         .watchOS(.v4),
-        .tvOS(.v11)
+        .tvOS(.v12)
     ],
     dependencies: [
         // for testing from same repository
